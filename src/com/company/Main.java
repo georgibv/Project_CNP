@@ -1,6 +1,5 @@
 package com.company;
 
-import java.util.ArrayList;
 import java.util.Scanner;
 
 
@@ -14,8 +13,8 @@ public class Main {
         PersonCNP person = new PersonCNP();
         person.setCnp(cnp);
 
-        System.out.println("Genre is:");
-        System.out.println(person.getGenre());
+        System.out.println("Gender is:");
+        System.out.println(person.getGender());
 
         System.out.println("Birth date is:");
         System.out.println(person.getBirthDate());
